@@ -1,13 +1,5 @@
 # nvim
 
-brew install node
+brew install node -> :PlugInstall -> :CocInstall coc-pairs
 
-:PlugInstall
-
-:CocInstall coc-pairs
-
-add to .bash
-
-alias vim='nvim'
-
-export EDITOR='nvim'
+add to .bash -> alias vim='nvim' -> export EDITOR='nvim'
