@@ -19,9 +19,7 @@ colorscheme onedark
 filetype plugin indent on
 syntax on
 set number
-set nu
 set relativenumber
-set rnu
 set autoindent
 set expandtab
 set tabstop=4 softtabstop=4 shiftwidth=4 
