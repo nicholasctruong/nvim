@@ -14,7 +14,6 @@ Plug 'sheerun/vim-polyglot'
 call plug#end()
 
 map <C-o> :NERDTreeToggle<CR>
-syntax on
 colorscheme onedark
 
 filetype plugin indent on
@@ -26,6 +25,7 @@ set rnu
 set autoindent
 set expandtab
 set tabstop=4 softtabstop=4 shiftwidth=4 
+au FileType * set formatoptions-=r formatoptions-=c formatoptions-=o
 
 " coc.vim  
 " TextEdit might fail if hidden is not set.
