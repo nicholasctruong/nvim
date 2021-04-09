@@ -38,6 +38,7 @@ set relativenumber
 set autoindent
 set expandtab
 set tabstop=4 softtabstop=4 shiftwidth=4 
+set mouse=a
 au FileType * set formatoptions-=r formatoptions-=c formatoptions-=o
 
 " coc.vim  
