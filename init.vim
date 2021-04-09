@@ -28,6 +28,7 @@ if (has("termguicolors"))
 endif
 
 map <silent> <C-o> :NERDTreeToggle<CR>
+let NERDTreeQuitOnOpen=1
 colorscheme onedark
 
 filetype plugin indent on
