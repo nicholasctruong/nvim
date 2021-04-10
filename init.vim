@@ -26,7 +26,7 @@ endif
 if (has("termguicolors"))
     set termguicolors
 endif
-let g:onedark_termcolors=1
+let g:onedark_terminal_italics=1
 
 map <silent> <C-o> :NERDTreeToggle<CR>
 let NERDTreeQuitOnOpen=1
