@@ -63,7 +63,7 @@ if has("patch-8.1.1564")
 else
   set signcolumn=yes
 endif
-" Use tab for trigger completion with characters ahead and navigate.
+" Use tab for trigger completion with characters ahead.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
 " other plugin before putting this into your config.
 inoremap <silent><expr> <TAB>
