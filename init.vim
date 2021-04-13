@@ -4,13 +4,14 @@ filetype plugin indent off
 
 call plug#begin('~/.config/.nvim/plugged')
 Plug 'preservim/nerdtree'
-Plug 'joshdick/onedark.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-surround'
 Plug 'neoclide/coc.nvim'
+Plug 'joshdick/onedark.vim'
 Plug 'sheerun/vim-polyglot'
+Plug 'arcticicestudio/nord-vim'
 call plug#end()
 
 "Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.
